@@ -163,7 +163,7 @@ p.lead {
 }
 
 .section-title small {
-    color: #998a9b;
+    color: #8a9b91;
 }
 
 @media (max-width:767px) {
@@ -211,7 +211,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid #99d4c2;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -346,7 +346,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #11998e;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -364,10 +364,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #11998e 0%, #2dc466 100%);
+    background-image: -webkit-linear-gradient( 122deg, #11998e 0%, #2dc466 100%);
+    background-image: -ms-linear-gradient( 122deg, #11998e 0%, #2dc466 100%);
+    background-image: linear-gradient( 122deg, #11998e 0%, #2dc466 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -425,17 +425,17 @@ header {
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
     padding: 1rem 1rem;
-    border-color: #faf6fb #faf6fb #FFF;
+    border-color: #f5faf8 #f5faf8 #FFF;
     font-size: 19px;
-    color: #b5a4c8;
-    background: #f5eff7;
+    color: #a4c8b6;
+    background: #eff7f3;
 }
 
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    border-color: #75ce94 #f5faf8 #FFF;
+    color: #399159;
 }
 
 
@@ -485,7 +485,7 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    background: #e7d9eb;
+    background: #c5d8c7;
     width: 35px;
     height: 8px;
     border-radius: 10px;
@@ -493,11 +493,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff487e;
+    background: #04db90;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff487e;
+    background: #04db90;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -530,14 +530,14 @@ header {
 }
 
 .card.pricing {
-    border: 1px solid #f1eef1;
+    border: 1px solid #edf0ef;
 }
 
 .card.pricing.popular {
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
+    border-color: #75ce9d #f5faf8 #FFF;
     box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
-    color: #633991;
+    color: #399169;
 }
 
 .card.pricing .card-head {
@@ -549,7 +549,7 @@ header {
     display: block;
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #399169;
 }
 
 .card.pricing .card-head .price sub {
@@ -560,12 +560,12 @@ header {
 .card.pricing .list-group-item {
     border: 0;
     text-align: center;
-    color: #959094;
+    color: #909593;
     padding: 1.05rem 1.25rem;
 }
 
 .card.pricing .list-group-item del {
-    color: #d9d3d8;
+    color: #d3d9d5;
 }
 
 .card.pricing .card-body {
@@ -597,7 +597,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #c9ffdd;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -625,13 +625,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #c9f4da;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #8ce3b0;
 }
 
 @media (max-width:991px) {
