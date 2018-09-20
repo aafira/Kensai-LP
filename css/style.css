@@ -144,14 +144,14 @@ p.lead {
 }
 
 .btn-cta {
-    border-radius: 3px;
-    background: #ed0033;
+    border-radius: 5px;
+    background: #FFF;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
     color: #15756d;
     margin: 0.5rem;
-    padding: 0.7rem 1.6rem;
+    padding: 10px;
     line-height: 1.8;
 }
 
