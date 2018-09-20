@@ -143,6 +143,18 @@ p.lead {
     line-height: 1.8;
 }
 
+.btn-cta {
+    border-radius: 3px;
+    background: #ed0033;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+    font-size: 14px;
+    font-weight: 500;
+    color: #15756d;
+    margin: 0.5rem;
+    padding: 0.7rem 1.6rem;
+    line-height: 1.8;
+}
+
 .btn-group-lg>.btn,
 .btn-lg {
     padding: 0.8rem 1rem;
@@ -607,6 +619,11 @@ header {
     vertical-align: text-bottom;
 }
 
+.btn-atc img {
+    margin-right: 0.4rem;
+    vertical-align: text-bottom;
+}
+
 
 /*  FOOTER
 ----------------------*/
@@ -639,4 +656,26 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+
+video {
+ max-width: 100%;
+ height: auto;
+}
+.video {
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
+ overflow: hidden;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 5;
+ width: 100%;
+ height: 100%;
 }
